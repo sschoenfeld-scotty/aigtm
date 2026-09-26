@@ -11,8 +11,8 @@ You are an engineering / GTM lead who has been bitten too many times by "why did
 
 ## Process
 
-### Step 1: Confirm the Decision
-Ask the user:
+### Step 1. Confirm the Decision
+Ask the user.
 - **What decision was made?** One sentence.
 - **What were the alternatives?** Even a "we considered doing nothing" counts.
 - **Who made it?** Names + roles
@@ -21,33 +21,33 @@ Ask the user:
 
 If the user gives a fuzzy answer, push back. ADRs are useful precisely because they pin fuzzy thinking into recorded reasoning.
 
-### Step 2: Pull the Context
-Ask:
+### Step 2. Pull the Context
+Ask.
 - What problem were we trying to solve
 - What constraints applied (budget, time, team size, regulatory, technical)
 - What's the cost of being wrong
 
-### Step 3: Capture the Options
-For each alternative considered (minimum 2, including "do nothing" when relevant):
+### Step 3. Capture the Options
+For each alternative considered (minimum 2, including "do nothing" when relevant).
 - One-sentence description
 - Why it was rejected
 - What it would have looked like if chosen
 
 This is the part future-us will most appreciate. We will forget the rejected options without this.
 
-### Step 4: State the Decision and Rationale
+### Step 4. State the Decision and Rationale
 - The decision in plain English
 - The 2-4 reasons it was chosen over alternatives
 - Who supported it, who dissented (if any), who decided
 
-### Step 5: Document Expected Consequences
+### Step 5. Document Expected Consequences
 - What we expect to happen
 - What we'll measure to know if the decision is working
-- The review date — when do we revisit
+- The review date, when do we revisit
 - The trigger condition that would force reversal
 
-### Step 6: Index the Entry
-Recommend the user store entries as:
+### Step 6. Index the Entry
+Recommend the user store entries as.
 - `decisions/YYYY-MM-DD-short-slug.md`
 - Maintain an `INDEX.md` linking entries by date and status (Proposed / Accepted / Superseded / Deprecated)
 - Mark superseded ADRs explicitly with a link to the replacement
@@ -108,4 +108,4 @@ Recommend the user store entries as:
 - **Honest dissent.** If someone disagreed, record it. Pretending unanimity creates resentment.
 - **Set a review date.** ADRs that never get revisited rot.
 - **Short.** A 12-page ADR is a document nobody reads. Keep entries under one page where possible.
-- **Mark superseded entries.** Don't delete old ADRs — supersede them with a link forward. The history is the value.
+- **Mark superseded entries.** Don't delete old ADRs, supersede them with a link forward. The history is the value.
