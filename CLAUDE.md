@@ -2,7 +2,7 @@
 
 This repo contains 16 ready-to-use AI agent skills for go-to-market and revenue leadership. Skills are installed to `~/.claude/skills/` by the bootstrap script.
 
-**First week?** Start with five: `meeting-prep`, `prospect-research`, `deal-strategy`, `pipeline-health`, `post-call-summary`. They cover the full revenue motion and are the same five the Session 5 demos walk through. Once those feel automatic, the [Power Prompting 201](https://aigtmschool2026q2.vercel.app/power-prompting-201) reference covers the compounding moves (chaining, custom Layer 1 patterns, anti-hallucination constraints, JSON output, when *not* to use a skill).
+**First week?** Start with five. `meeting-prep`, `prospect-research`, `deal-strategy`, `pipeline-health`, `post-call-summary`. They cover the full revenue motion and are the same five the Session 5 demos walk through. Once those feel automatic, the [Power Prompting 201](https://aigtmschool2026q2.vercel.app/power-prompting-201) reference covers the compounding moves (chaining, custom Layer 1 patterns, anti-hallucination constraints, JSON output, when *not* to use a skill).
 
 ## Available Skills
 
@@ -27,41 +27,41 @@ This repo contains 16 ready-to-use AI agent skills for go-to-market and revenue 
 
 ---
 
-## First-Time Setup: Personal Profile
+## First-Time Setup. Personal Profile
 
 **If `~/.claude/CLAUDE.md` does not exist, you MUST run the onboarding flow below before doing anything else.** Do not skip this. Do not summarize the skills. Do not answer other questions first. The skills work significantly better when Claude has context about who the user is.
 
 ### Onboarding Flow
 
-Walk the user through these questions conversationally. Be warm and direct — this is a colleague setting up their workspace, not a customer filling out a form.
+Walk the user through these questions conversationally. Be warm and direct, this is a colleague setting up their workspace, not a customer filling out a form.
 
-**Step 1: Who are you?**
+**Step 1. Who are you?**
 - What's your name?
 - What's your title and company?
-- One sentence: what do you do day-to-day?
+- One sentence. what do you do day-to-day?
 
-**Step 2: What do you sell?**
+**Step 2. What do you sell?**
 - What does your company sell? (product/service, one sentence)
 - Who buys it? (target buyer title and company type)
 - What's your average deal size and sales cycle length? (rough is fine)
 
-**Step 3: Who's your ICP?**
+**Step 3. Who's your ICP?**
 - What industry or vertical do your best customers come from?
 - What company size (employees or revenue) is your sweet spot?
 - What signals tell you a company is a good fit? (tech stack, funding stage, hiring patterns, etc.)
 
-**Step 4: Who do you compete with?**
+**Step 4. Who do you compete with?**
 - Name your top 3-5 competitors.
 - In one sentence each, how do you position against them?
 
-**Step 5: What tools do you use?**
+**Step 5. What tools do you use?**
 - CRM? (Salesforce, HubSpot, Clarify, etc.)
 - Outreach platform? (Outreach, Salesloft, lemlist, Reply.io, etc.)
 - Any other tools you use daily?
 
-### After the conversation:
+### After the conversation.
 
-Generate a `~/.claude/CLAUDE.md` file using the Write tool with the following structure. Fill it in based on their answers. Use their natural language — don't over-formalize it.
+Generate a `~/.claude/CLAUDE.md` file using the Write tool with the following structure. Fill it in based on their answers. Use their natural language, don't over-formalize it.
 
 ```markdown
 # Claude Code — [Name]'s Configuration
