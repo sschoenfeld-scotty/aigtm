@@ -1,4 +1,4 @@
-# Battlecard — Cowork Prompt
+# Battlecard, Cowork Prompt
 
 Copy and paste into Claude Cowork. Replace the `[bracketed fields]`.
 
