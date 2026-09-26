@@ -4,6 +4,6 @@ Generates user-facing release notes from git logs, ticket lists, PR titles, or s
 
 ## How to use
 
-**Cowork:** Copy `COWORK-PROMPT.md` into Claude Cowork.
+**Cowork** Copy `COWORK-PROMPT.md` into Claude Cowork.
 
-**Claude Code:** Install to `~/.claude/skills/changelog/` and ask Claude to "write release notes" or "build the changelog."
+**Claude Code** Install to `~/.claude/skills/changelog/` and ask Claude to "write release notes" or "build the changelog."
