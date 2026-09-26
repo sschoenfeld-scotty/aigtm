@@ -1,6 +1,6 @@
 # AI GTM Skills for Claude
 
-**61 ready-to-use AI agent skills for go-to-market operators, marketers, and small-business owners.** Sales execution, marketing, competitive intel, daily operator workflows, file utilities, and a full SMB owner-operator toolkit — all running locally in Claude Code.
+**61 ready-to-use AI agent skills for go-to-market operators, marketers, and small-business owners.** Sales execution, marketing, competitive intel, daily operator workflows, file utilities, and a full SMB owner-operator toolkit, all running locally in Claude Code.
 
 Built by [Scott Wueschinski](https://linkedin.com/in/scottwueschinski) for the [Pavilion](https://www.joinpavilion.com/) AI in GTM School.
 
@@ -8,21 +8,21 @@ Built by [Scott Wueschinski](https://linkedin.com/in/scottwueschinski) for the [
 
 ## For the AI in GTM School cohort
 
-If you're here from Pavilion's **Operations: Power Prompting for Revenue Teams** session (Q2 2026), this is your toolkit. Three things to know before you install:
+If you're here from Pavilion's **Operations. Power Prompting for Revenue Teams** session (Q2 2026), this is your toolkit. Three things to know before you install.
 
-1. **Install once, customize forever.** The bootstrap script gets you fully set up in ~5 minutes. It then runs a 2-minute onboarding flow that captures your role, company, ICP, and competitors — that profile travels into every skill so the outputs feel like they came from inside your company, not from a generic assistant.
+1. **Install once, customize forever.** The bootstrap script gets you fully set up in ~5 minutes. It then runs a 2-minute onboarding flow that captures your role, company, ICP, and competitors, that profile travels into every skill so the outputs feel like they came from inside your company, not from a generic assistant.
 2. **The class-day move is customization, not installation.** Install before class on Tuesday so we spend Wednesday's session customizing skills together rather than configuring laptops. Pre-class Slack drop has the install paths.
-3. **The Six-Layer Power Prompt Stack** — Context → Role → Task → Constraints → Examples → Output Spec — is the framework you'll see in every `SKILL.md` file. The class walks through it once; the takeaway page below holds the field-kit version you can reference forever.
+3. **The Six-Layer Power Prompt Stack**, Context → Role → Task → Constraints → Examples → Output Spec, is the framework you'll see in every `SKILL.md` file. The class walks through it once; the takeaway page below holds the field-kit version you can reference forever.
 
 > **New to this repo?** 61 skills is a lot. Don't try to learn them all in week one — jump to **[Start Here — 5 Skills](#start-here--5-skills-101)** below for the five-skill starter set that covers the full revenue motion. The other 56 will still be there when you want them.
 
-**Class takeaway page:** [aigtmschool2026q2.vercel.app/power-prompting](https://aigtmschool2026q2.vercel.app/power-prompting) *(goes live May 27, 2026 after Session 5)*
+**Class takeaway page** [aigtmschool2026q2.vercel.app/power-prompting](https://aigtmschool2026q2.vercel.app/power-prompting) *(goes live May 27, 2026 after Session 5)*
 
 ---
 
-## Start Here — 5 Skills (101)
+## Start Here, 5 Skills (101)
 
-61 skills is a firehose. If this is your first install, ignore the other 56 for the first week and run these five. They cover the full revenue motion, every one fires on a natural phrase, and they're the same five the Session 5 demos walk through:
+61 skills is a firehose. If this is your first install, ignore the other 56 for the first week and run these five. They cover the full revenue motion, every one fires on a natural phrase, and they're the same five the Session 5 demos walk through.
 
 | Skill | Trigger phrase | When you'd reach for it |
 |---|---|---|
@@ -32,26 +32,26 @@ If you're here from Pavilion's **Operations: Power Prompting for Revenue Teams**
 | [Pipeline Health](skills/pipeline-health/) | *"audit my pipeline"* | Monday morning, end of week, commit calls |
 | [Post-Call Summary](skills/post-call-summary/) | *"summarize my call"* | Within 10 min of any customer call |
 
-Customize **Layer 1 (Context)** in any one of them with your company / ICP / competitors and the output quality jumps an order of magnitude. The bootstrap onboarding sets a global Context in `~/.claude/CLAUDE.md` — every skill inherits it.
+Customize **Layer 1 (Context)** in any one of them with your company / ICP / competitors and the output quality jumps an order of magnitude. The bootstrap onboarding sets a global Context in `~/.claude/CLAUDE.md`, every skill inherits it.
 
 ## Once You're Fluent (201)
 
-When the Six-Layer Stack feels obvious and you want the moves that compound across skills — chaining, custom Layer 1 patterns, anti-hallucination constraints at scale, JSON output for chained pipelines, and *when not to use a skill* — read the 201 companion: **[Power Prompting 201](https://aigtmschool2026q2.vercel.app/power-prompting-201)**.
+When the Six-Layer Stack feels obvious and you want the moves that compound across skills, chaining, custom Layer 1 patterns, anti-hallucination constraints at scale, JSON output for chained pipelines, and *when not to use a skill*, read the 201 companion. **[Power Prompting 201](https://aigtmschool2026q2.vercel.app/power-prompting-201)**.
 
 ## Agents and orchestration (201)
 
-The Power Prompting class taught you to save a prompt as a skill with a trigger phrase. The Advanced Agents class takes the next step: chaining those skills into one supervised motion a system can run start to finish. The new [Agent Orchestration](skills/agent-orchestration/) skill shows how, mapped to the five-layer Autonomous GTM Stack (Trigger, Agent decision, Execution, a required human-in-the-loop gate, and Feedback). Its worked example chains `prospect-research`, `cold-email`, `post-call-summary`, and `win-loss-analyzer` into a supervised outbound motion where nothing customer-facing sends until a person approves it. For the class walk-through and the field-kit version, see the companion page: **[Autonomous GTM](https://aigtmschool2026q2.vercel.app/autonomous-gtm)**.
+The Power Prompting class taught you to save a prompt as a skill with a trigger phrase. The Advanced Agents class takes the next step. chaining those skills into one supervised motion a system can run start to finish. The new [Agent Orchestration](skills/agent-orchestration/) skill shows how, mapped to the five-layer Autonomous GTM Stack (Trigger, Agent decision, Execution, a required human-in-the-loop gate, and Feedback). Its worked example chains `prospect-research`, `cold-email`, `post-call-summary`, and `win-loss-analyzer` into a supervised outbound motion where nothing customer-facing sends until a person approves it. For the class walk-through and the field-kit version, see the companion page. **[Autonomous GTM](https://aigtmschool2026q2.vercel.app/autonomous-gtm)**.
 
 ---
 
 ## See It in Action
 
-Before installing anything, see what these skills produce:
+Before installing anything, see what these skills produce.
 
 | Example | What was asked | Output |
 |---------|---------------|--------|
 | [Meeting Prep](examples/meeting-prep-output.md) | "Prep me for my call with Sarah Chen at Meridian Health Systems" | Company snapshot, person brief, pain points, conversation starters, landmines |
-| [Deal Strategy](examples/deal-strategy-output.md) | "Deal strategy for NovaBridge Financial — $180K, competing against Clari" | MEDDIC assessment, stakeholder map, competitive positioning, weekly action plan |
+| [Deal Strategy](examples/deal-strategy-output.md) | "Deal strategy for NovaBridge Financial, $180K, competing against Clari" | MEDDIC assessment, stakeholder map, competitive positioning, weekly action plan |
 | [Pipeline Health](examples/pipeline-health-output.md) | "Audit my pipeline. My quota is $500K this quarter." | Coverage analysis, risk flags, commit vs. upside, prioritized action list |
 | [Prospect Research](examples/prospect-research-output.md) | "Research these 3 companies and draft outreach" | Company brief, decision-maker, personalization hook, 3-sentence email |
 
@@ -65,7 +65,7 @@ Before installing anything, see what these skills produce:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/GTMify/aigtm/main/setup/bootstrap.sh)"
 ```
 
-This installs everything — Homebrew, Node.js, Python, Claude Code, content tools (pandoc, ffmpeg, imagemagick, poppler, tesseract, yt-dlp), public CLIs (vercel, stripe, supabase, wrangler, netlify, agent-browser), and all 61 skills. Takes about 5-7 minutes. The script then walks you through an optional Bring-Your-Own-Keys `.env` setup, and Claude launches with a 2-minute profile interview.
+This installs everything, Homebrew, Node.js, Python, Claude Code, content tools (pandoc, ffmpeg, imagemagick, poppler, tesseract, yt-dlp), public CLIs (vercel, stripe, supabase, wrangler, netlify, agent-browser), and all 61 skills. Takes about 5-7 minutes. The script then walks you through an optional Bring-Your-Own-Keys `.env` setup, and Claude launches with a 2-minute profile interview.
 
 See the full breakdown in [What Gets Installed](#what-gets-installed) below.
 
@@ -78,7 +78,7 @@ See the full breakdown in [What Gets Installed](#what-gets-installed) below.
 
 Windows takes three steps rather than one command. The macOS version can be piped straight from the network because `curl` ships with the OS, but on Windows the script has to be on disk before it can run, and `git` is what puts it there.
 
-Work in a normal PowerShell window, **not** an elevated one. Everything installs into your own user profile, so an Administrator prompt puts it in the wrong place. If your prompt opens at `C:\WINDOWS\system32`, you are elevated: close it and open PowerShell as your regular user.
+Work in a normal PowerShell window, **not** an elevated one. Everything installs into your own user profile, so an Administrator prompt puts it in the wrong place. If your prompt opens at `C:\WINDOWS\system32`, you are elevated. close it and open PowerShell as your regular user.
 
 **1. Install git.**
 
@@ -98,9 +98,9 @@ cd $env:USERPROFILE\claude\aigtm
 .\setup\bootstrap.ps1
 ```
 
-Note the `.\` and the `cd`. PowerShell will not execute a script from a bare path in command position, and it does not expand `~` there either, so a line like `~\claude\aigtm\setup\bootstrap.ps1` fails with a confusing complaint about a module that could not be loaded. To run it from some other directory, use the call operator instead: `& "$env:USERPROFILE\claude\aigtm\setup\bootstrap.ps1"`.
+Note the `.\` and the `cd`. PowerShell will not execute a script from a bare path in command position, and it does not expand `~` there either, so a line like `~\claude\aigtm\setup\bootstrap.ps1` fails with a confusing complaint about a module that could not be loaded. To run it from some other directory, use the call operator instead. `& "$env:USERPROFILE\claude\aigtm\setup\bootstrap.ps1"`.
 
-If PowerShell refuses with a message about running scripts being disabled, allow it for the current session only:
+If PowerShell refuses with a message about running scripts being disabled, allow it for the current session only.
 
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
@@ -108,7 +108,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 Phase 1 of the script installs git as well, which is harmless if step 1 already did. Prefer `.\setup\bootstrap.ps1 -Check` first if you want a read-only health report before anything changes. After setup finishes, close and reopen your terminal, then run `claude`.
 
-**Just want Claude Code and none of the GTM skills?** Skip this repo entirely. The official installer brings its own runtime, so it needs neither git nor Node:
+**Just want Claude Code and none of the GTM skills?** Skip this repo entirely. The official installer brings its own runtime, so it needs neither git nor Node.
 
 ```powershell
 irm https://claude.ai/install.ps1 | iex
@@ -116,18 +116,18 @@ irm https://claude.ai/install.ps1 | iex
 
 ### Claude Desktop / Cowork (no install required)
 
-No terminal needed. Two ways in:
+No terminal needed. Two ways in.
 
-1. **One-shot install** — see [`COWORK.md`](COWORK.md). Either connect this repo as a Cowork knowledge source, or paste the single master prompt and unlock all 62 skills in one message.
-2. **Per-skill copy-paste** — open any skill folder below, copy the prompt from its **`COWORK-PROMPT.md`** file, paste into Claude, fill in the `[bracketed fields]`, and go.
+1. **One-shot install**, see [`COWORK.md`](COWORK.md). Either connect this repo as a Cowork knowledge source, or paste the single master prompt and unlock all 62 skills in one message.
+2. **Per-skill copy-paste**, open any skill folder below, copy the prompt from its **`COWORK-PROMPT.md`** file, paste into Claude, fill in the `[bracketed fields]`, and go.
 
 ---
 
 ## Bring Your Own Keys (BYOK)
 
-Most skills work fine with **no API keys** — Claude's built-in WebSearch handles research. But some skills become dramatically more powerful when wired to your own keys (Apollo for contact data, Hunter for email verification, Firecrawl for clean scraping, Vercel for one-click deploys, Stripe for proposal payments, etc.).
+Most skills work fine with **no API keys**, Claude's built-in WebSearch handles research. But some skills become dramatically more powerful when wired to your own keys (Apollo for contact data, Hunter for email verification, Firecrawl for clean scraping, Vercel for one-click deploys, Stripe for proposal payments, etc.).
 
-The bootstrap script offers an interactive `.env` setup. You can also copy the template manually:
+The bootstrap script offers an interactive `.env` setup. You can also copy the template manually.
 
 ```bash
 cp setup/env.example ~/.claude/.env
@@ -149,44 +149,44 @@ The bootstrap script adds a line to your shell profile that auto-loads `~/.claud
 |-------|--------------|---------------|
 | [Meeting Prep](skills/meeting-prep/) | Research a company + person and produce a pre-call briefing | FIRECRAWL, SERPER |
 | [Prospect Research](skills/prospect-research/) | Research target accounts, find decision-makers, draft outreach | APOLLO, HUNTER, FIRECRAWL |
-| [Cold Email](skills/cold-email/) | B2B cold emails with 4-touch follow-up sequences | — |
+| [Cold Email](skills/cold-email/) | B2B cold emails with 4-touch follow-up sequences |, |
 | [Sequence](skills/sequence/) | Multi-channel outreach cadence (email + LinkedIn + phone) | SMARTLEAD, INSTANTLY, LEMLIST, HEYREACH |
 | [ABM](skills/abm/) | Account plan with buying committee map and 30-day play | APOLLO, CLEARBIT |
 | [Battlecard](skills/battlecard/) | Honest competitive battlecard against a named competitor | FIRECRAWL, SERPER |
-| [Referral](skills/referral/) | Warm-intro path finder with forwardable 2-message bundle | — |
-| [Post-Call Summary](skills/post-call-summary/) | Raw notes → action items + follow-up + CRM summary | — |
-| [Objection Handler](skills/objection-handler/) | Diagnose stuck deals, prescribe plays, write the messages | — |
-| [Deal Strategy](skills/deal-strategy/) | MEDDIC, stakeholder map, competitive positioning, action plan | — |
+| [Referral](skills/referral/) | Warm-intro path finder with forwardable 2-message bundle |, |
+| [Post-Call Summary](skills/post-call-summary/) | Raw notes → action items + follow-up + CRM summary |, |
+| [Objection Handler](skills/objection-handler/) | Diagnose stuck deals, prescribe plays, write the messages |, |
+| [Deal Strategy](skills/deal-strategy/) | MEDDIC, stakeholder map, competitive positioning, action plan |, |
 | [Proposal](skills/proposal/) | Customer-facing proposal or SOW with procurement-ready terms | STRIPE |
-| [ROI Calculator](skills/roi-calculator/) | Risk-adjusted business case with CFO Q&A | — |
+| [ROI Calculator](skills/roi-calculator/) | Risk-adjusted business case with CFO Q&A |, |
 | [One-Pager](skills/one-pager/) | Forwardable champion leave-behind doc | BRANDFETCH |
 
 ### Marketing
 
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
-| [Launch](skills/launch/) | Product/feature launch plan + content kit | — |
-| [Campaign](skills/campaign/) | Multi-channel marketing campaign builder | — |
-| [Messaging](skills/messaging/) | Positioning, value props, message hierarchy | — |
-| [PMM](skills/pmm/) | Product-marketing artifact suite | — |
+| [Launch](skills/launch/) | Product/feature launch plan + content kit |, |
+| [Campaign](skills/campaign/) | Multi-channel marketing campaign builder |, |
+| [Messaging](skills/messaging/) | Positioning, value props, message hierarchy |, |
+| [PMM](skills/pmm/) | Product-marketing artifact suite |, |
 | [Programmatic SEO](skills/programmatic-seo/) | Template-based pages at scale | DATAFORSEO |
 | [SEO Audit](skills/seo-audit/) | Technical + on-page SEO diagnostic | GA4, DATAFORSEO |
-| [Website Audit](skills/website-audit/) | Buyer's-eye marketing audit of a company website with letter-graded scorecard | — |
+| [Website Audit](skills/website-audit/) | Buyer's-eye marketing audit of a company website with letter-graded scorecard |, |
 | [Competitor Alternatives](skills/competitor-alternatives/) | "[Competitor] alternatives" landing pages | FIRECRAWL |
-| [Pricing Strategy](skills/pricing-strategy/) | Tiers, packaging, willingness-to-pay analysis | — |
-| [Marketing Psychology](skills/marketing-psychology/) | Apply mental models to campaigns and copy | — |
-| [Kit](skills/kit/) | Lead magnet content kits | — |
+| [Pricing Strategy](skills/pricing-strategy/) | Tiers, packaging, willingness-to-pay analysis |, |
+| [Marketing Psychology](skills/marketing-psychology/) | Apply mental models to campaigns and copy |, |
+| [Kit](skills/kit/) | Lead magnet content kits |, |
 
 ### Cross-Functional
 
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
 | [Brainstorm](skills/brainstorm/) | Structured multi-frame ideation with ranked output | EXA |
-| [Repurpose](skills/repurpose/) | Turn one asset into 5-10 derivatives across formats | — |
+| [Repurpose](skills/repurpose/) | Turn one asset into 5-10 derivatives across formats |, |
 | [Microsite](skills/microsite/) | Self-contained personalized HTML landing page | VERCEL, CLOUDFLARE, BRANDFETCH |
-| [Changelog](skills/changelog/) | User-facing release notes from git history | — |
-| [Decision Log](skills/decision-log/) | ADR-style decision capture | — |
-| [Roadmap](skills/roadmap/) | Prioritized roadmap with Now/Next/Later tiers | — |
+| [Changelog](skills/changelog/) | User-facing release notes from git history |, |
+| [Decision Log](skills/decision-log/) | ADR-style decision capture |, |
+| [Roadmap](skills/roadmap/) | Prioritized roadmap with Now/Next/Later tiers |, |
 
 ### Pipeline & Forecasting
 
@@ -201,32 +201,32 @@ The bootstrap script adds a line to your shell profile that auto-loads `~/.claud
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
 | [Competitive Intel](skills/competitive-intel/) | Monitor competitors for launches, hiring, press | FIRECRAWL, SERPER |
-| [Win/Loss Analyzer](skills/win-loss-analyzer/) | Analyze deal outcomes for patterns | — |
+| [Win/Loss Analyzer](skills/win-loss-analyzer/) | Analyze deal outcomes for patterns |, |
 
 ### Customer Success & Retention
 
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
-| [QBR Builder](skills/qbr-builder/) | Customer-facing QBR that leads with value | — |
+| [QBR Builder](skills/qbr-builder/) | Customer-facing QBR that leads with value |, |
 | [Churn Early Warning](skills/churn-early-warning/) | Flag at-risk accounts, prescribe save plays | SALESFORCE, HUBSPOT |
 
 ### Leadership & Strategy
 
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
-| [Board Update](skills/board-update/) | Investor update with revenue, pipeline, narrative | — |
-| [Hiring Brief](skills/hiring-brief/) | Role scope + JD + comp + interview scorecard | — |
+| [Board Update](skills/board-update/) | Investor update with revenue, pipeline, narrative |, |
+| [Hiring Brief](skills/hiring-brief/) | Role scope + JD + comp + interview scorecard |, |
 
 ### Daily Operations
 
 | Skill | What it does | Optional keys |
 |-------|--------------|---------------|
-| [Weekly Planner](skills/weekly-planner/) | Calendar + pipeline + priorities → weekly game plan | — |
-| [Inbox Triage](skills/inbox-triage/) | Categorize, prioritize, draft email responses | — |
-| [CRM](skills/crm/) | Daily priorities dashboard from pasted CRM data | — |
-| [Standup](skills/standup/) | Morning brief that surfaces priorities and follow-ups | — |
-| [Inbox Zero](skills/inbox-zero/) | Triage assistant for pasted email subjects/threads | — |
-| [Focus Time](skills/focus-time/) | Time-block planner from pasted calendar | — |
+| [Weekly Planner](skills/weekly-planner/) | Calendar + pipeline + priorities → weekly game plan |, |
+| [Inbox Triage](skills/inbox-triage/) | Categorize, prioritize, draft email responses |, |
+| [CRM](skills/crm/) | Daily priorities dashboard from pasted CRM data |, |
+| [Standup](skills/standup/) | Morning brief that surfaces priorities and follow-ups |, |
+| [Inbox Zero](skills/inbox-zero/) | Triage assistant for pasted email subjects/threads |, |
+| [Focus Time](skills/focus-time/) | Time-block planner from pasted calendar |, |
 
 ### File Utilities
 
@@ -239,7 +239,7 @@ The bootstrap script adds a line to your shell profile that auto-loads `~/.claud
 
 ### Running an SMB? Start Here
 
-A complete fractional CFO / COO / CHRO / CMO toolkit for owners of small businesses (1-50 employees). All skills work with pasted data — no QuickBooks/Stripe/Gmail integration required. Skills touching tax, legal, or finance carry plain-English disclaimers.
+A complete fractional CFO / COO / CHRO / CMO toolkit for owners of small businesses (1-50 employees). All skills work with pasted data, no QuickBooks/Stripe/Gmail integration required. Skills touching tax, legal, or finance carry plain-English disclaimers.
 
 **Money & finance**
 
@@ -248,7 +248,7 @@ A complete fractional CFO / COO / CHRO / CMO toolkit for owners of small busines
 | [Bookkeeping Helper](skills/bookkeeping-helper/) | Categorize transactions from a pasted statement, flag anomalies, produce a monthly P&L summary |
 | [Invoice Generator](skills/invoice-generator/) | Create professional invoices with payment terms and branding |
 | [Cash Flow Forecast](skills/cash-flow-forecast/) | 13-week rolling cash projection; flags burn risk |
-| [Tax Prep Helper](skills/tax-prep-helper/) | Quarterly estimates, 1099 prep, sales-tax primer — surfaces what to send to your CPA |
+| [Tax Prep Helper](skills/tax-prep-helper/) | Quarterly estimates, 1099 prep, sales-tax primer, surfaces what to send to your CPA |
 
 **Customers & growth**
 
@@ -273,10 +273,10 @@ A complete fractional CFO / COO / CHRO / CMO toolkit for owners of small busines
 
 ## What Gets Installed
 
-The bootstrap script runs **10 phases** end-to-end. Here's everything it installs:
+The bootstrap script runs **10 phases** end-to-end. Here's everything it installs.
 
 | Phase | Tool | What it is |
-|:-:|:--|:--|
+|.-.|.--|.--|
 | 1 | Xcode Command Line Tools | git + compilers (macOS) |
 | 2 | Homebrew / winget | Package manager |
 | 3 | `mise` / `fnm` | Runtime version manager |
@@ -309,7 +309,7 @@ The bootstrap script runs **10 phases** end-to-end. Here's everything it install
 | 9 | `gh auth login` | Interactive GitHub auth |
 | 10 | Shell configuration | Managed block in `~/.zshrc` or PowerShell profile (PATH, fzf, env auto-source, aliases) |
 
-The script is **idempotent** — re-running it heals missing pieces without breaking anything that's already there. Run `./setup/bootstrap.sh --check` (macOS) or `.\setup\bootstrap.ps1 -Check` (Windows) for a read-only health report.
+The script is **idempotent**, re-running it heals missing pieces without breaking anything that's already there. Run `./setup/bootstrap.sh --check` (macOS) or `.\setup\bootstrap.ps1 -Check` (Windows) for a read-only health report.
 
 ---
 
@@ -317,7 +317,7 @@ The script is **idempotent** — re-running it heals missing pieces without brea
 
 These skills are starting points. They work out of the box, but they work **dramatically better** when tuned to your company, ICP, and competitive landscape.
 
-See the **[Customization Guide](CUSTOMIZATION.md)** for:
+See the **[Customization Guide](CUSTOMIZATION.md)** for.
 - Adding your company context, value props, and proof points
 - Defining your ICP with buying signals and disqualification criteria
 - Building a competitor playbook with trap questions and positioning
@@ -329,7 +329,7 @@ See the **[Customization Guide](CUSTOMIZATION.md)** for:
 
 ## How Skills Work
 
-Each skill folder contains:
+Each skill folder contains.
 
 ```
 skills/meeting-prep/
@@ -338,7 +338,7 @@ skills/meeting-prep/
 └── README.md           # What this skill does and how to customize it
 ```
 
-**SKILL.md** is the instruction set that tells Claude *how to think* about a task — what to research, what format to use, what to avoid, and what guardrails to follow. It's written in plain English. You can read it, edit it, and make it your own.
+**SKILL.md** is the instruction set that tells Claude *how to think* about a task, what to research, what format to use, what to avoid, and what guardrails to follow. It's written in plain English. You can read it, edit it, and make it your own.
 
 **COWORK-PROMPT.md** is a self-contained prompt you paste directly into Claude Desktop or Cowork. Same logic, packaged as a single prompt with fill-in-the-blank fields.
 
@@ -346,20 +346,20 @@ skills/meeting-prep/
 
 ## Troubleshooting
 
-**"command not found: claude" after install**
+**"command not found. claude" after install**
 Close and reopen your terminal, or run `source ~/.zshrc` (Mac) / restart PowerShell (Windows).
 
-**"npm: command not found" during install**
-The bootstrap script handles this, but if you see it, run: `export PATH="$HOME/.local/share/mise/shims:$PATH"` then re-run the script.
+**"npm. command not found" during install**
+The bootstrap script handles this, but if you see it, run. `export PATH="$HOME/.local/share/mise/shims:$PATH"` then re-run the script.
 
 **Skills not activating in Claude Code**
-Check that skills are linked: `ls ~/.claude/skills/`. If empty, re-run `./setup/bootstrap.sh`.
+Check that skills are linked. `ls ~/.claude/skills/`. If empty, re-run `./setup/bootstrap.sh`.
 
 **"Permission denied" on Windows symlinks**
-Enable Developer Mode: Settings > Privacy & Security > For developers > Developer Mode. Or run PowerShell as Administrator.
+Enable Developer Mode. Settings > Privacy & Security > For developers > Developer Mode. Or run PowerShell as Administrator.
 
 **Env vars not loading in my shell**
-The bootstrap adds a block to `~/.zshrc` (or PowerShell profile) that auto-sources `~/.claude/.env`. If you skipped that step, run `./setup/bootstrap.sh` again or add this line manually:
+The bootstrap adds a block to `~/.zshrc` (or PowerShell profile) that auto-sources `~/.claude/.env`. If you skipped that step, run `./setup/bootstrap.sh` again or add this line manually.
 ```bash
 set -a; . ~/.claude/.env; set +a
 ```
@@ -376,7 +376,7 @@ set -a; . ~/.claude/.env; set +a
 
 Built by [Scott Wueschinski](https://linkedin.com/in/scottwueschinski) for the Pavilion AI in GTM School. Questions? Reach out at scott@gtmify.io.
 
-Skills use Claude's built-in web search and file tools out of the box. Optional API keys (Apollo, Hunter, Firecrawl, Vercel, Stripe, etc.) supercharge specific skills — see [`setup/env.example`](setup/env.example) for the full catalog.
+Skills use Claude's built-in web search and file tools out of the box. Optional API keys (Apollo, Hunter, Firecrawl, Vercel, Stripe, etc.) supercharge specific skills, see [`setup/env.example`](setup/env.example) for the full catalog.
 
 ---
 
