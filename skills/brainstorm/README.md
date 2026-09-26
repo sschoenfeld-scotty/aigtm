@@ -4,6 +4,6 @@ Runs a structured multi-frame ideation pass rather than freeform list-vomit. Pro
 
 ## How to use
 
-**Cowork:** Copy `COWORK-PROMPT.md` into Claude Cowork.
+**Cowork** Copy `COWORK-PROMPT.md` into Claude Cowork.
 
-**Claude Code:** Install to `~/.claude/skills/brainstorm/` and ask Claude to "brainstorm [topic]."
+**Claude Code** Install to `~/.claude/skills/brainstorm/` and ask Claude to "brainstorm [topic]."
