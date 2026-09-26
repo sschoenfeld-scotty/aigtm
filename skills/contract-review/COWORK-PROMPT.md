@@ -1,4 +1,4 @@
-# Contract Review — Cowork Prompt
+# Contract Review, Cowork Prompt
 
 ```
 Review this contract and tell me whether to sign, push back, or walk. Plain English only.
@@ -30,4 +30,4 @@ Review this contract and tell me whether to sign, push back, or walk. Plain Engl
 - For leases, partnerships, personal guarantees, or anything over $10K, always recommend attorney review.
 ```
 
-**Disclaimer:** This is not legal advice. Have a licensed attorney in your state review high-stakes contracts before signing.
+**Disclaimer** This is not legal advice. Have a licensed attorney in your state review high-stakes contracts before signing.
