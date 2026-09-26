@@ -1,6 +1,6 @@
 # Cash Flow Forecast (13-Week Rolling)
 
-Builds the single most useful financial artifact for a small business — a 13-week week-by-week cash forecast — from inputs you can answer without an accounting degree.
+Builds the single most useful financial artifact for a small business, a 13-week week-by-week cash forecast, from inputs you can answer without an accounting degree.
 
 ## Time saved
 
@@ -14,7 +14,7 @@ Tell Claude your cash on hand, what's coming in, and what's going out. Claude wi
 
 - Save your recurring monthly outflows once (rent, payroll, software stack) so refreshing weekly is fast
 - Tie this skill to your bookkeeping summary so last month's actuals flow into next quarter's forecast
-- Run alternate scenarios monthly: "what if I hire one more person?" / "what if my biggest customer leaves?"
+- Run alternate scenarios monthly. "what if I hire one more person?" / "what if my biggest customer leaves?"
 
 ## Disclaimer
 
