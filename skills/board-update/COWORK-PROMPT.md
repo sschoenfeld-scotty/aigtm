@@ -1,4 +1,4 @@
-# Board / Investor Update — Cowork Prompt
+# Board / Investor Update, Cowork Prompt
 
 ```
 Help me write a [monthly investor email / quarterly board update] for [Company Name].
