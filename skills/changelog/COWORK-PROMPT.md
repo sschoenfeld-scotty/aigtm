@@ -1,4 +1,4 @@
-# Changelog / Release Notes — Cowork Prompt
+# Changelog / Release Notes, Cowork Prompt
 
 Copy into Claude Cowork. Replace the `[bracketed fields]`.
 
