@@ -4,6 +4,6 @@ Writes B2B cold emails and 3-touch follow-up sequences that sound like a human, 
 
 ## How to use
 
-**Cowork:** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude Cowork.
+**Cowork** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude Cowork.
 
-**Claude Code:** Copy this folder to `~/.claude/skills/cold-email/` and ask Claude to "write a cold email to [name] at [company]."
+**Claude Code** Copy this folder to `~/.claude/skills/cold-email/` and ask Claude to "write a cold email to [name] at [company]."
