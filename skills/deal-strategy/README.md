@@ -1,6 +1,6 @@
 # Deal Strategy Agent
 
-Builds a strategic plan for a specific active deal — MEDDIC assessment, stakeholder map, competitive positioning, risk analysis, and a prioritized action plan.
+Builds a strategic plan for a specific active deal, MEDDIC assessment, stakeholder map, competitive positioning, risk analysis, and a prioritized action plan.
 
 ## Time saved
 
