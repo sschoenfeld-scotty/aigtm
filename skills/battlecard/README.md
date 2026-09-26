@@ -4,6 +4,6 @@ Builds an honest, sales-ready competitive battlecard against a named competitor.
 
 ## How to use
 
-**Cowork:** Copy `COWORK-PROMPT.md` into Claude Cowork.
+**Cowork** Copy `COWORK-PROMPT.md` into Claude Cowork.
 
-**Claude Code:** Install to `~/.claude/skills/battlecard/` and ask Claude for "a battlecard against [competitor]."
+**Claude Code** Install to `~/.claude/skills/battlecard/` and ask Claude for "a battlecard against [competitor]."
