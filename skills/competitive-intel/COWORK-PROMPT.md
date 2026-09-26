@@ -1,4 +1,4 @@
-# Competitive Intel Monitor — Cowork Prompt
+# Competitive Intel Monitor, Cowork Prompt
 
 ```
 Research my top competitors and give me a weekly intel briefing.
