@@ -1,4 +1,4 @@
-# Design System — Cowork Prompt
+# Design System, Cowork Prompt
 
 Paste this whole block into Claude Cowork. Fill in the bracketed fields. Submit. Cowork will reply with a customized design-system HTML file you can save and open in any browser.
 
@@ -66,12 +66,12 @@ That's it. After you reply, I'll save the block as <my-brand-name>-design-system
 
 1. Click into the `html` code block and copy.
 2. Save as `<your-brand-name>-design-system.html` (lowercase, hyphens).
-3. Open the file in any browser — that's your design system.
-4. To revise: edit the CSS variables in `:root` at the top of the file.
-5. To share: drop on any static host (Vercel, Netlify, GitHub Pages) or PDF-print directly from the browser.
+3. Open the file in any browser, that's your design system.
+4. To revise. edit the CSS variables in `:root` at the top of the file.
+5. To share. drop on any static host (Vercel, Netlify, GitHub Pages) or PDF-print directly from the browser.
 
 ## How this works under the hood
 
-This is a skill from the [aigtm](https://github.com/GTMify/aigtm) toolkit. The template lives at [`skills/design-system/template.html`](template.html) in the repo. The full SKILL.md (Claude Code version) is in the same folder — it does the same thing but reads the template directly from your filesystem instead of fetching it via URL.
+This is a skill from the [aigtm](https://github.com/GTMify/aigtm) toolkit. The template lives at [`skills/design-system/template.html`](template.html) in the repo. The full SKILL.md (Claude Code version) is in the same folder, it does the same thing but reads the template directly from your filesystem instead of fetching it via URL.
 
 Same Six-Layer Power Prompt Stack as every other skill in the repo. Layer 1 (Context) = your brand. Layer 6 (Output Spec) = a single fenced HTML block. The skill is the framework.
