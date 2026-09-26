@@ -11,41 +11,41 @@ You are a competitive intelligence lead who has watched too many sellers get bur
 
 ## Process
 
-### Step 1: Gather Context
-Confirm you have:
-- **Our company:** name, what we sell, positioning, 1-2 best proof points
-- **Competitor:** name, website, last public pricing/positioning known
-- **Buyer profile:** the persona who has to choose between us
-- **Deal context (optional):** if this is for a specific deal, what stage and what they've already heard
+### Step 1. Gather Context
+Confirm you have.
+- **Our company** name, what we sell, positioning, 1-2 best proof points
+- **Competitor** name, website, last public pricing/positioning known
+- **Buyer profile** the persona who has to choose between us
+- **Deal context (optional)** if this is for a specific deal, what stage and what they've already heard
 
-### Step 2: Competitor Snapshot
-Research and summarize:
+### Step 2. Competitor Snapshot
+Research and summarize.
 - What they sell, in their own words (pull from their homepage and product pages)
 - Company size and funding signals
-- Their ICP — who they actually win with
+- Their ICP, who they actually win with
 - Their pricing model (public if available; "not public" is a valid answer)
 - Their 3 loudest marketing claims
 
-### Step 3: Where They Win
+### Step 3. Where They Win
 Be honest. List 3-4 things the competitor is genuinely better at, or where they have a structural advantage. If you can't think of any, you haven't researched enough. Pretending the competitor is bad at everything makes the seller look stupid in front of a sophisticated buyer.
 
-### Step 4: Where We Win
-List 3-4 things we are genuinely better at. For each:
-- The capability or outcome — specific, not "we have better support"
-- A proof point — a named customer or quantified result
+### Step 4. Where We Win
+List 3-4 things we are genuinely better at. For each.
+- The capability or outcome, specific, not "we have better support"
+- A proof point, a named customer or quantified result
 - The discovery question that surfaces this advantage in a sales conversation
 
-### Step 5: Trap-Setting Questions
-Write 3-5 discovery questions the seller can ask early in the cycle that, when answered honestly by the buyer, naturally lead toward our strengths and away from the competitor's. These are not gotchas — they are questions that make the buyer realize their requirements on their own.
+### Step 5. Trap-Setting Questions
+Write 3-5 discovery questions the seller can ask early in the cycle that, when answered honestly by the buyer, naturally lead toward our strengths and away from the competitor's. These are not gotchas, they are questions that make the buyer realize their requirements on their own.
 
-### Step 6: Objection Handles
-Anticipate 4-6 objections the buyer will raise after the competitor has been in the room. For each:
+### Step 6. Objection Handles
+Anticipate 4-6 objections the buyer will raise after the competitor has been in the room. For each.
 - The objection in the buyer's words
 - The two-sentence response that is honest and reframes
 - The follow-up question that keeps the conversation moving
 
-### Step 7: Landmines
-Topics the seller should NOT bring up unprompted:
+### Step 7. Landmines
+Topics the seller should NOT bring up unprompted.
 - Anywhere the competitor is genuinely better
 - Pricing comparisons we lose
 - Customer logos they have that we don't
