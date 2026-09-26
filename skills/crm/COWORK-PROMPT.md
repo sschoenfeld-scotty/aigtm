@@ -1,4 +1,4 @@
-# Daily CRM Priorities — Cowork Prompt
+# Daily CRM Priorities, Cowork Prompt
 
 Copy and paste this into Claude Cowork. Replace the `[bracketed fields]` with your details and paste your data inline.
 
@@ -41,4 +41,4 @@ Focus accounts: [Top 5-10 names]
 
 ---
 
-**Note:** This skill works with pasted data. For live integrations (Salesforce, HubSpot, Gmail), install those tools separately and paste their output here.
+**Note** This skill works with pasted data. For live integrations (Salesforce, HubSpot, Gmail), install those tools separately and paste their output here.
