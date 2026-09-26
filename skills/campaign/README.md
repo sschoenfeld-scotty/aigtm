@@ -4,7 +4,7 @@ Builds multi-channel marketing campaigns with a narrative arc, full content cale
 
 ## What it does
 
-Given a goal + audience + window, this agent:
+Given a goal + audience + window, this agent.
 1. Picks the right narrative arc (insight-led, problem-agitate-solve, customer story, contrarian, tutorial)
 2. Maps channels to roles in the arc (open, deepen, convert)
 3. Writes a full content calendar with headlines, CTAs, and owners
@@ -19,9 +19,9 @@ Given a goal + audience + window, this agent:
 
 ## How to use
 
-**Cowork:** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude.
+**Cowork** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude.
 
-**Claude Code:** Copy this folder to `~/.claude/skills/campaign/` and ask Claude to "build a campaign for [goal]."
+**Claude Code** Copy this folder to `~/.claude/skills/campaign/` and ask Claude to "build a campaign for [goal]."
 
 ## Customization ideas
 
