@@ -1,4 +1,4 @@
-# Decision Log / ADR — Cowork Prompt
+# Decision Log / ADR, Cowork Prompt
 
 Copy into Claude Cowork. Replace the `[bracketed fields]`.
 
