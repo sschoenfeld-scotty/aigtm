@@ -6,25 +6,25 @@ No terminal? No problem. This page is the one-shot install path for Claude Cowor
 
 ---
 
-## Path A — Connect the repo as a knowledge source (recommended)
+## Path A, Connect the repo as a knowledge source (recommended)
 
-If your Cowork has the **"Add folder" / "Connect a knowledge source"** feature:
+If your Cowork has the **"Add folder" / "Connect a knowledge source"** feature.
 
-1. Click *Add folder* in Cowork (the exact label varies by Cowork release — it's the same UI you'd use to add a Google Drive folder or a GitHub repo).
-2. Paste the repo URL:
+1. Click *Add folder* in Cowork (the exact label varies by Cowork release, it's the same UI you'd use to add a Google Drive folder or a GitHub repo).
+2. Paste the repo URL.
    ```
    https://github.com/GTMify/aigtm
    ```
 3. Cowork imports all 62 skills as searchable, retrievable knowledge.
-4. Use the trigger phrases below — Cowork finds the matching `SKILL.md` and runs it.
+4. Use the trigger phrases below, Cowork finds the matching `SKILL.md` and runs it.
 
-**That's it.** Same triggers, same six-layer structure, same outputs as the terminal install. The only difference is Cowork doesn't have a filesystem — so the customization step (editing Layer 1 Context) works by *adding a context block in your Cowork conversation* instead of editing a file on disk. See the "Customizing in Cowork" section below.
+**That's it.** Same triggers, same six-layer structure, same outputs as the terminal install. The only difference is Cowork doesn't have a filesystem, so the customization step (editing Layer 1 Context) works by *adding a context block in your Cowork conversation* instead of editing a file on disk. See the "Customizing in Cowork" section below.
 
 ---
 
-## Path B — Paste the master prompt (works without folder connector)
+## Path B, Paste the master prompt (works without folder connector)
 
-If your Cowork doesn't have a folder connector, paste this single message into a new Cowork conversation. It tells Cowork how to find and use the skills via the GitHub repo:
+If your Cowork doesn't have a folder connector, paste this single message into a new Cowork conversation. It tells Cowork how to find and use the skills via the GitHub repo.
 
 ```text
 Treat https://github.com/GTMify/aigtm as my AI GTM skill library
@@ -70,7 +70,7 @@ After Cowork confirms, you can use any of the trigger phrases above in the same 
 
 In the terminal install, Layer 1 (Context) is customized by editing `~/.claude/skills/<name>/SKILL.md` on disk. In Cowork, you do the equivalent by **adding a Company Context block at the start of your Cowork conversation**. Cowork carries that context forward into every skill invocation in the same conversation.
 
-Drop this template into your Cowork chat once, then never type it again:
+Drop this template into your Cowork chat once, then never type it again.
 
 ```text
 COMPANY CONTEXT (apply to every skill in this conversation):
@@ -103,39 +103,39 @@ Apply this Company Context to every skill I invoke below. Do not
 invent competitive positioning that contradicts the wedges above.
 ```
 
-Once that block is in your conversation, every trigger phrase you fire afterward will inherit it. The output goes from "any rep at any company" to "feels-like-it-came-from-inside-your-team" — same lift as customizing Layer 1 in the terminal install.
+Once that block is in your conversation, every trigger phrase you fire afterward will inherit it. The output goes from "any rep at any company" to "feels-like-it-came-from-inside-your-team", same lift as customizing Layer 1 in the terminal install.
 
 ---
 
 ## The 45+ other skills
 
-The 16 above are the revenue-team starter set. The full repo has 45+ more for:
+The 16 above are the revenue-team starter set. The full repo has 45+ more for.
 
-- **Marketing** — `campaign`, `messaging`, `marketing-psychology`, `pmm`, `launch`, `microsite`, `programmatic-seo`, `repurpose`, `seo-audit`, `one-pager`, `proposal`
-- **Customer success** — `customer-support-triage`, `review-response`
-- **RevOps** — `crm`, `roadmap`, `decision-log`, `standup`, `sop-writer`, `vendor-evaluation`
-- **SMB owner-operator** — `bookkeeping-helper`, `cash-flow-forecast`, `invoice-generator`, `owner-dashboard`, `pricing-services`, `pricing-strategy`, `roi-calculator`, `tax-prep-helper`, `referral`, `local-marketing`
-- **Hiring** — `hiring-kit`, `hiring-brief`
-- **Document workflows** — `docx`, `pdf`, `pptx`, `xlsx`
-- **General-purpose** — `brainstorm`, `focus-time`, `changelog`, `contract-review`, `inbox-zero`, `competitor-alternatives`, `battlecard`
+- **Marketing**, `campaign`, `messaging`, `marketing-psychology`, `pmm`, `launch`, `microsite`, `programmatic-seo`, `repurpose`, `seo-audit`, `one-pager`, `proposal`
+- **Customer success**, `customer-support-triage`, `review-response`
+- **RevOps**, `crm`, `roadmap`, `decision-log`, `standup`, `sop-writer`, `vendor-evaluation`
+- **SMB owner-operator**, `bookkeeping-helper`, `cash-flow-forecast`, `invoice-generator`, `owner-dashboard`, `pricing-services`, `pricing-strategy`, `roi-calculator`, `tax-prep-helper`, `referral`, `local-marketing`
+- **Hiring**, `hiring-kit`, `hiring-brief`
+- **Document workflows**, `docx`, `pdf`, `pptx`, `xlsx`
+- **General-purpose**, `brainstorm`, `focus-time`, `changelog`, `contract-review`, `inbox-zero`, `competitor-alternatives`, `battlecard`
 
-Ask Cowork: *"Find the skill that best matches [the job I'm trying to do]"* — it'll search the loaded library and tell you which one to fire.
+Ask Cowork. *"Find the skill that best matches [the job I'm trying to do]"*, it'll search the loaded library and tell you which one to fire.
 
 ---
 
 ## Once you're fluent
 
-Read the [Power Prompting 201 companion](https://aigtmschool2026q2.vercel.app/power-prompting-201) — the moves the live class didn't have time for: chaining skills into pipelines, custom Layer 1 patterns, anti-hallucination constraints at scale, JSON output for chained workflows, and *when not to use a skill*.
+Read the [Power Prompting 201 companion](https://aigtmschool2026q2.vercel.app/power-prompting-201), the moves the live class didn't have time for. chaining skills into pipelines, custom Layer 1 patterns, anti-hallucination constraints at scale, JSON output for chained workflows, and *when not to use a skill*.
 
 ---
 
 ## Pavilion AI in GTM School cohort
 
-If you're here from the May 27, 2026 session, the live takeaway is at:
+If you're here from the May 27, 2026 session, the live takeaway is at.
 
 **https://aigtmschool2026q2.vercel.app/power-prompting**
 
-The bonus token-management field kit:
+The bonus token-management field kit.
 
 **https://aigtmschool2026q2.vercel.app/token-management**
 
