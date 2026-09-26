@@ -1,4 +1,4 @@
-# Competitor Alternatives / VS Page — Cowork Prompt
+# Competitor Alternatives / VS Page, Cowork Prompt
 
 Copy and paste this into Claude Cowork. Replace the `[bracketed fields]` with your details.
 
