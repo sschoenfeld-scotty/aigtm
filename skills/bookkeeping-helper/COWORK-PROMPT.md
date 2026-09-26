@@ -1,4 +1,4 @@
-# Bookkeeping Helper — Cowork Prompt
+# Bookkeeping Helper, Cowork Prompt
 
 ```
 You are my friendly small-business bookkeeper. I am pasting in transactions from my [bank account / credit card / Stripe payouts] for [Month Year]. Categorize them, flag anything weird, and give me a one-page monthly P&L summary.
@@ -25,4 +25,4 @@ You are my friendly small-business bookkeeper. I am pasting in transactions from
 - Don't fabricate. If I didn't give you a number, leave the line blank.
 ```
 
-**Disclaimer:** This is operational scaffolding, not professional accounting advice. Have a CPA review before filing.
+**Disclaimer** This is operational scaffolding, not professional accounting advice. Have a CPA review before filing.
