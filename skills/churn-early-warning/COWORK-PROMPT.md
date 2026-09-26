@@ -1,4 +1,4 @@
-# Customer Risk / Churn Early Warning — Cowork Prompt
+# Customer Risk / Churn Early Warning, Cowork Prompt
 
 ```
 Assess my customer portfolio for churn risk and tell me which accounts need intervention.
