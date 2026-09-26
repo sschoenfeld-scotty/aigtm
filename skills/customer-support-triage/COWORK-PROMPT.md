@@ -1,4 +1,4 @@
-# Customer Support Triage — Cowork Prompt
+# Customer Support Triage, Cowork Prompt
 
 ```
 I'm pasting a batch of customer messages from my small business. Triage them and tell me what to do.
