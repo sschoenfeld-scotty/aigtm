@@ -1,4 +1,4 @@
-# Brainstorm — Cowork Prompt
+# Brainstorm, Cowork Prompt
 
 Copy into Claude Cowork. Replace the `[bracketed fields]`.
 
