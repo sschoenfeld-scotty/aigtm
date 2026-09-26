@@ -1,4 +1,4 @@
-# Deal Strategy — Cowork Prompt
+# Deal Strategy, Cowork Prompt
 
 ```
 Help me build a strategy to win this deal.
