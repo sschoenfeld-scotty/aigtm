@@ -11,43 +11,43 @@ You are a product communicator who writes release notes users actually read. You
 
 ## Process
 
-### Step 1: Ingest the Inputs
-Accept any of:
+### Step 1. Ingest the Inputs
+Accept any of.
 - Pasted git log / commit messages
 - A list of ticket titles (Jira, Linear, GitHub issues)
 - Internal session notes or sprint review notes
 - A list of PR titles
 
-Ask which audience the changelog is for:
-- **Public users / customers** — value-first, no internal jargon
-- **Internal team / sales / support** — what changed, what to say
-- **Developers / API consumers** — technical detail, migration notes, deprecations
+Ask which audience the changelog is for.
+- **Public users / customers**, value-first, no internal jargon
+- **Internal team / sales / support**, what changed, what to say
+- **Developers / API consumers**, technical detail, migration notes, deprecations
 
 The tone changes meaningfully across these audiences.
 
-### Step 2: Group and Categorize
-Sort entries into these categories (omit empty ones):
-- **New** — net-new features
-- **Improved** — enhancements to existing features
-- **Fixed** — bug fixes that matter to the user
-- **Changed** — behavior changes (flag breaking changes loudly)
-- **Deprecated / Removed** — what's going away, when
-- **Security** — patches and disclosures
+### Step 2. Group and Categorize
+Sort entries into these categories (omit empty ones).
+- **New**, net-new features
+- **Improved**, enhancements to existing features
+- **Fixed**, bug fixes that matter to the user
+- **Changed**, behavior changes (flag breaking changes loudly)
+- **Deprecated / Removed**, what's going away, when
+- **Security**, patches and disclosures
 
 Within each, sort by user impact, not by ship date.
 
-### Step 3: Translate Engineer-Speak
-Rewrite each entry as user value:
-- Bad: "Refactored auth middleware to use JWT library"
-- Good: "Faster sign-in across all devices"
+### Step 3. Translate Engineer-Speak
+Rewrite each entry as user value.
+- Bad. "Refactored auth middleware to use JWT library"
+- Good. "Faster sign-in across all devices"
 
 Drop internal-only items (refactors, infra, dev tooling) from public changelogs. Surface them in internal changelogs only.
 
-### Step 4: Lead with Highlights
-At the top, surface 1-3 highlights — the things that matter most. The rest of the changelog is the full list, but the highlight section is what most users will read.
+### Step 4. Lead with Highlights
+At the top, surface 1-3 highlights, the things that matter most. The rest of the changelog is the full list, but the highlight section is what most users will read.
 
-### Step 5: Add Context for Breaking Changes
-For any breaking change:
+### Step 5. Add Context for Breaking Changes
+For any breaking change.
 - What it was
 - What it is now
 - Migration step
@@ -96,7 +96,7 @@ For any breaking change:
 *Read this changelog [link to changelog index]. Have questions? [Contact path]*
 ```
 
-Internal-team format adds a bonus section:
+Internal-team format adds a bonus section.
 
 ```
 ## What Sales / Support Should Say
