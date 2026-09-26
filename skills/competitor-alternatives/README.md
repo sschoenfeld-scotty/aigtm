@@ -4,7 +4,7 @@ Builds "[Competitor] alternatives" and "[A] vs [B]" landing pages for SEO and sa
 
 ## What it does
 
-Given a competitor + your positioning, this agent:
+Given a competitor + your positioning, this agent.
 1. Picks the right pattern (alternatives vs. comparison)
 2. Builds an honest strategic frame
 3. Generates the SEO wire-up (URL, title, meta, schema)
@@ -17,14 +17,14 @@ Given a competitor + your positioning, this agent:
 
 ## Optional keys
 
-- `FIRECRAWL_API_KEY` — clean scrape of competitor's homepage and pricing page
-- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD` — search volume and competition data
+- `FIRECRAWL_API_KEY`, clean scrape of competitor's homepage and pricing page
+- `DATAFORSEO_LOGIN` / `DATAFORSEO_PASSWORD`, search volume and competition data
 
 ## How to use
 
-**Cowork:** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude.
+**Cowork** Copy the prompt from `COWORK-PROMPT.md` and paste into Claude.
 
-**Claude Code:** Copy this folder to `~/.claude/skills/competitor-alternatives/` and ask Claude to "build a [competitor] alternatives page."
+**Claude Code** Copy this folder to `~/.claude/skills/competitor-alternatives/` and ask Claude to "build a [competitor] alternatives page."
 
 ## Customization ideas
 
