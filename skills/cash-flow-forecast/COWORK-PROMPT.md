@@ -1,4 +1,4 @@
-# Cash Flow Forecast — Cowork Prompt
+# Cash Flow Forecast, Cowork Prompt
 
 ```
 Build me a 13-week rolling cash flow forecast for my small business. Be conservative on inflows, aggressive on outflows, and tell me in one sentence whether I'm fine, tight, or in trouble.
@@ -39,4 +39,4 @@ After the base case, offer to model:
 - No financing or investment advice — that's a CFO conversation.
 ```
 
-**Disclaimer:** Operational scaffolding, not professional financial advice. Have a CPA or fractional CFO review before hiring, taking debt, or making distributions.
+**Disclaimer** Operational scaffolding, not professional financial advice. Have a CPA or fractional CFO review before hiring, taking debt, or making distributions.
