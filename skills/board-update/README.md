@@ -1,6 +1,6 @@
 # Board / Investor Update Agent
 
-Builds structured board or investor updates with revenue performance, pipeline, team, and strategic narrative — everything vs. plan.
+Builds structured board or investor updates with revenue performance, pipeline, team, and strategic narrative, everything vs. plan.
 
 ## Time saved
 
