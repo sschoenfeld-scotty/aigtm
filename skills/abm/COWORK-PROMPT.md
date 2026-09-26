@@ -1,4 +1,4 @@
-# ABM / Account Plan — Cowork Prompt
+# ABM / Account Plan, Cowork Prompt
 
 Copy and paste this into Claude Cowork. Replace the `[bracketed fields]` with your details.
 
